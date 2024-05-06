@@ -62,8 +62,6 @@
   text-align: left;
   color: #373737;
 }
-.nav-items {
-}
 .gap-29 {
   gap: 29px;
 }
@@ -88,6 +86,104 @@
 .nav-shadows {
   box-shadow: 0px 1px 10px 0px #0000001a;
 }
+.col-6 {
+  width: 50%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.section1-background {
+  background-color: #fff7f4;
+}
+.mt-170 {
+  margin-top: 170px;
+}
+.mt-11{
+    margin-top: 11px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.pb-150{
+    padding-bottom: 150px;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.gap-5{
+    gap: 5px;
+}
+.section1-heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.33px;
+  text-align: left;
+  color: black;
+}
+.digital-span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.33px;
+  text-align: left;
+  color: #ff5300;
+}
+.section1-paragraph {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7b7b7b;
+}
+.contactus-button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: left;
+  color: #ffffff;
+  padding: 13px 22px 13px 22px;
+  border-radius: 5px;
+  background-color: #ff5300;
+  box-shadow: 0px 1px 10px 0px #FAD2C0;
+
+  border: none;
+}
+.contactus-button:hover {
+  background-color: #ffffff;
+  color: #ff5300;
+  border: 2px solid #ff5300;
+  box-shadow: 0px 1px 10px 0px #FAD2C0;
+}
+.postion-relative{
+    position: relative;
+}
+.postion-absolute{
+    position: absolute;
+}
+.mainbox-apps{
+    top: 30%;
+    right: -20%;
+}
+.facebook-box{
+    padding: 8px 8px 8px 8px;
+    background-color:white;
+    box-shadow: 4px 5px 15px 0px #FF530066;
+}
+.section-1:hover .mainbox-apps{
+    right: 0%;
+}
+.over-flow-hidden{
+    overflow: hidden;
+}
+.facebook-box:hover svg path{
+    fill: white;
+}
+.facebook-box:hover{
+    background-color: #ff5300;
+}
 @media (max-width: 992px) {
   .navbar-items {
     font-family: "Poppins", sans-serif;
@@ -97,6 +193,22 @@
     text-align: left;
     color: black;
   }
+    .section1-heading {
+      font-family: "Work Sans", sans-serif;
+      font-size: 39px;
+      font-weight: 700;
+      line-height: 50.33px;
+      text-align: left;
+      color: black;
+    }
+        .digital-span {
+          font-family: "Work Sans", sans-serif;
+          font-size: 39px;
+          font-weight: 700;
+          line-height: 50   .33px;
+          text-align: left;
+          color: #ff5300;
+        }
 }
 @media (max-width: 768px) {
   .menubar {
@@ -132,4 +244,77 @@
   .show {
     left: 0;
   }
+  .md-col-12{
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .md-flex-direction-revrse{
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 567px) {
+  .digiency-1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 30.06px;
+    line-height: 45.77px;
+    text-align: left;
+    color: #ff5300;
+  }
+
+  .digiency-2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 30.06px;
+    line-height: 45.77px;
+    text-align: left;
+    color: #373737;
+  }
+    .section1-heading {
+      font-family: "Work Sans", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 45.33px;
+      text-align: left;
+      color: black;
+    }
+  
+    .digital-span {
+      font-family: "Work Sans", sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 45.33px;
+      text-align: left;
+      color: #ff5300;
+    }
+}
+@media (min-width:992px) {
+
+  .section1-heading {
+      font-family: "Work Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59.33px;
+      text-align: left;
+      color: black;
+        max-width: 440px;
+    }
+  
+    .digital-span {
+      font-family: "Work Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59.33px;
+      text-align: left;
+      color: #ff5300;
+    }
+  
+    .section1-paragraph {
+      font-family: "Work Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24.1px;
+      text-align: left;
+      color: #7b7b7b;
+      max-width: 493px;
+    }
 }
