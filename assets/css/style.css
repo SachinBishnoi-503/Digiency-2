@@ -374,33 +374,41 @@
   padding: 25px 30px 20px 20px;
   height: 100%;
 }
-.pt-60{
+
+.pt-60 {
   padding-top: 60px;
 }
-.pb-120{
+
+.pb-120 {
   padding-bottom: 120px;
 }
-.text-align-center{
+
+.text-align-center {
   text-align: center;
 }
-.box-paragraph-sec2{
-  font-family: "Work Sans",sans-serif;
+
+.box-paragraph-sec2 {
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24.1px;
   text-align: center;
   color: #373737;
 }
-.mt-36{
+
+.mt-36 {
   margin-top: 36px;
 }
+
 .card:hover .circle-2 {
   background-color: white;
-  
+
 }
-.card:hover .circle-2 svg path{
+
+.card:hover .circle-2 svg path {
   fill: black;
 }
+
 .card:hover .circle {
   background-color: white;
 
@@ -409,17 +417,20 @@
 .card:hover .circle svg path {
   fill: #FF5300;
 }
+
 .card:hover .circle-3 {
   background-color: white;
 
 }
 
 .card:hover .circle-3 svg path {
-  fill:#00ACFF;
+  fill: #00ACFF;
 }
-.card:hover{
+
+.card:hover {
   box-shadow: 0px -2px 38px 8px #0000001a;
 }
+
 .card:hover .circle-4 {
   background-color: white;
 }
@@ -427,6 +438,233 @@
 .card:hover .circle-4 svg path {
   fill: black;
 }
+
+.section3-our-expereince {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.section-3-background {
+  background-color: #FFF7F4;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.section3-heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: left;
+}
+
+.section3-span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: left;
+  color: #FF5300;
+
+}
+
+.lorem-paragraph-section3 {
+  font-family: "Work Sans" x, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.lorem-paragraph2-section3 {
+  font-family: "Work Sans" x, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.section3-contactus-btn {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: left;
+  color: #ffffff;
+  padding: 13px 22px 13px 22px;
+  border-radius: 5px;
+  background-color: #ff5300;
+  box-shadow: 0px 1px 10px 0px #FAD2C0;
+  border: 2px solid #ff5300;
+}
+
+.section3-contactus-btn:hover {
+  background-color: #ffffff;
+  color: #ff5300;
+  border: 2px solid #ff5300;
+  box-shadow: 0px 1px 10px 0px #FAD2C0;
+}
+
+.box-card {
+  box-shadow: 0px 1px 10px 0px #0000001A;
+  padding: 70px 40px 70px 40px;
+  background-color: white;
+}
+
+.global-customer-section3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.card-number-section3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  color: #373737;
+  font-weight: 700;
+  line-height: 59.33px;
+  text-align: left;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.box-card:hover {
+  box-shadow: 0px -2px 38px 8px #0000001a;
+}
+
+.text-wrap-nowrap {
+  text-wrap: nowrap;
+}
+
+.team-member-section4 {
+  font-family: "Work Sans;" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.section4-wehave {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+}
+
+.section4-awesome {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+  color: #FF5300;
+}
+
+.section4-box-heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: left;
+}
+
+.section4-box-paragraph {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  color: #7B7B7B;
+  text-align: left;
+}
+
+.section4-box {
+  box-shadow: 0px 1px 10px 0px #0000001A;
+}
+
+.section4-box:hover {
+  box-shadow: 0px -2px 38px 8px #0000001a;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.scroll-bar {
+  overflow-x: scroll;
+}
+
+.w-1140 {
+  width: 1140px;
+}
+.scroll-bar-none::-webkit-scrollbar{
+  display: none;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.w1320px {
+  max-width: 1320px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mainbox-apps-section4 {
+  position: absolute;
+  top: 40%;
+  right: -41px;
+  transition: all 200ms linear;
+  transform: translateY(-50%);
+}
+
+.facebook-box-section4 {
+  padding: 8px 8px 8px 8px;
+  background-color: white;
+  box-shadow: 4px 5px 15px 0px #FF530066;
+}
+
+.section4-box:hover .mainbox-apps-section4 {
+  right: 2%;
+}
+
+.over-flow-hidden {
+  overflow: hidden;
+}
+
+.facebook-box-section4:hover svg path {
+  fill: white;
+}
+
+.facebook-box-section4:hover {
+  background-color: #ff5300;
+}
+
 @media (max-width: 992px) {
   .navbar-items {
     font-family: "Poppins", sans-serif;
@@ -453,6 +691,24 @@
     line-height: 50 .33px;
     text-align: left;
     color: #ff5300;
+  }
+
+  .global-customer-section3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: left;
+    color: #7B7B7B;
+  }
+
+  .card-number-section3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    color: #373737;
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
   }
 }
 
@@ -500,17 +756,50 @@
   .md-flex-direction-revrse {
     flex-direction: column-reverse;
   }
-  .md-col-6{
+
+  .md-col-6 {
     width: 50%;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .md-mt-20{
+
+  .md-mt-20 {
     margin-top: 20px;
   }
-.md-justify-content-center{
-justify-content: center;
-}
+
+  .md-justify-content-center {
+    justify-content: center;
+  }
+
+  .md-mt-30 {
+    margin-top: 30px;
+  }
+
+  .global-customer-section3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: left;
+    color: #7B7B7B;
+  }
+
+  .card-number-section3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 35px;
+    color: #373737;
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+  }
+
+  .section3-heading {
+    font-family: "Work Sans", sans-serif;
+    font-size: 31.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
 }
 
 @media (max-width: 567px) {
@@ -547,30 +836,58 @@ justify-content: center;
     text-align: left;
     color: #ff5300;
   }
-  .sm-col-12{
+
+  .sm-col-12 {
     width: 100%;
     padding-right: 12px;
     padding-left: 12px;
   }
-  .sm-mt-20{
+
+  .sm-mt-20 {
     margin-top: 20px;
   }
-    .section2-we-are {
+
+  .section2-we-are {
+    font-family: "Work Sans", sans-serif;
+    font-size: 34.06px;
+    font-weight: 600;
+    line-height: 40.28px;
+    text-align: left;
+  }
+
+  .ideas-better-span {
+    font-family: "Work Sans", sans-serif;
+    font-size: 34.06px;
+    font-weight: 600;
+    line-height: 40.28px;
+    text-align: left;
+    color: #FF5300;
+  }
+
+  .section3-heading {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+    .section4-wehave {
       font-family: "Work Sans", sans-serif;
-      font-size: 34.06px;
+      font-size: 25.06px;
       font-weight: 600;
-      line-height: 40.28px;
-      text-align: left;
+      line-height: 48.28px;
+      text-align: center;
     }
   
-    .ideas-better-span {
+    .section4-awesome {
       font-family: "Work Sans", sans-serif;
-      font-size: 34.06px;
+      font-size: 25.06px;
       font-weight: 600;
-      line-height: 40.28px;
-      text-align: left;
+      line-height: 48.28px;
+      text-align: center;
       color: #FF5300;
     }
+  
 }
 
 @media (min-width:992px) {
