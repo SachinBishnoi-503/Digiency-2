@@ -833,7 +833,7 @@
 
 .childslider {
   box-shadow: 0px 1px 10px 0px #0000001A;
-  background-color:#FF5300;
+  background-color: #FF5300;
   position: relative;
   padding: 20px;
   margin-left: 50px;
@@ -845,7 +845,7 @@
   font-size: 25px;
   font-weight: 500;
   line-height: 30.9px;
-  color:white;
+  color: white;
   margin-left: 45px;
   margin-top: 15px;
 }
@@ -866,7 +866,7 @@
 .img-postn {
   top: 10%;
   z-index: 5;
-  left: -5%;
+  left: -8%;
 }
 
 .slick-next,
@@ -888,24 +888,27 @@
   opacity: 100;
 }
 
-.slick-dots li button::after{
-    width: 15px;
-      height: 15px;
-      background-color: grey;
-      opacity: 100%;
-      border-radius: 50px;
-      font-size: 0;
-      transition: all 0.4s linear;
-}
-.slick-dots li button::before {
+
+.slick-dots li button::after {
   width: 15px;
   height: 15px;
-  background-color:#E54B00;
+  background-color: grey;
   opacity: 100%;
   border-radius: 50px;
   font-size: 0;
   transition: all 0.4s linear;
 }
+
+.slick-dots li button::before {
+  width: 15px;
+  height: 15px;
+  background-color: #E54B00;
+  opacity: 100%;
+  border-radius: 50px;
+  font-size: 0;
+  transition: all 0.4s linear;
+}
+
 .slick-dots {
   position: absolute;
   bottom: -70px;
@@ -916,8 +919,13 @@
   list-style: none;
   text-align: center;
 }
+
 .pb-60 {
   padding-bottom: 60px;
+}
+
+.h-80 {
+  height: 80px;
 }
 
 .slides {
@@ -925,11 +933,106 @@
   box-shadow: 0px 1px 10px 0px #0000001A;
   margin: 20px;
 }
-.mt-7{
+
+.mt-7 {
   margin-top: 7px;
 }
-.mt-20{
+
+.mt-20 {
   margin-top: 20px;
+}
+
+.section7-our-blog {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: center;
+  color: #7B7B7B;
+}
+
+.section7-our-latest {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+}
+
+.section7-span {
+  font-family: "Work Sans", sans-serif;
+  color: #E54B00;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+}
+
+.slide-img {
+  height: 80px;
+  width: 80px;
+}
+
+.slides {
+  width: 100%;
+}
+
+
+.graphic {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #FF5300;
+}
+
+
+
+.stellar {
+  font-family: "Work Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.9px;
+  text-align: left;
+  color: #373737;
+}
+
+.gap-2 {
+  gap: 2px;
+}
+
+.cris {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: center;
+  color: #373737;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.jan {
+  font-family: "Work Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+.mt-5{
+  margin-top: 5px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
 }
 
 @media (max-width: 992px) {
@@ -1197,32 +1300,33 @@
     text-align: center;
     color: #FF5300;
   }
-    .section6-client-feedback {
-      font-family: "Work Sans", sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 24.1px;
-      text-align: center;
-      color: #7B7B7B;
-    }
-  
-    .section6-some-great {
-      font-family: "Work Sans", sans-serif;
-      font-size: 20.25px;
-      font-weight: 600;
-      line-height: 38.62px;
-      text-align: center;
-    }
-  
-    .section6-span {
-      color: #E54B00;
-      font-family: "Work Sans", sans-serif;
-      font-size: 20.25px;
-      font-weight: 600;
-      line-height: 38.62px;
-      text-align: center;
-  
-    }
+
+  .section6-client-feedback {
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: #7B7B7B;
+  }
+
+  .section6-some-great {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20.25px;
+    font-weight: 600;
+    line-height: 38.62px;
+    text-align: center;
+  }
+
+  .section6-span {
+    color: #E54B00;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20.25px;
+    font-weight: 600;
+    line-height: 38.62px;
+    text-align: center;
+
+  }
 
 }
 
