@@ -987,8 +987,6 @@
   color: #FF5300;
 }
 
-
-
 .stellar {
   font-family: "Work Sans", sans-serif;
   font-size: 25px;
@@ -1016,14 +1014,15 @@
 }
 
 .jan {
-  font-family: "Work Sans",sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24.1px;
   text-align: left;
   color: #7B7B7B;
 }
-.mt-5{
+
+.mt-5 {
   margin-top: 5px;
 }
 
@@ -1034,6 +1033,84 @@
 .ml-8 {
   margin-left: 8px;
 }
+
+.section8-contactus {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.section8-heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+
+}
+
+.section8-heading-span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+  color: #E54B00;
+}
+
+.section8-box {
+  width: 100%;
+  box-shadow: 0px 1px 10px 0px #0000001A;
+  color: white;
+  padding: 20px !important;
+  margin-top: 24px;
+}
+
+.gap-3 {
+  gap: 3px;
+}
+
+.section8-circle {
+  height: 75px;
+  width: 75px;
+  background-color: #FF5300;
+  border-radius: 50px;
+  border: 2px solid #FF5300;
+}
+.drop {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--fs-4xl);
+  font-weight: 500;
+  line-height: 30.9px;
+  text-align: left;
+  color: #E54B00;
+}
+
+.mail {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--fs-5xl);
+  font-weight: 600;
+  line-height: 38.62px;
+  text-align: left;
+  color: black;
+}
+
+.email {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--fs-2xl);
+  font-weight: 500;
+  line-height: 24.72px;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
 
 @media (max-width: 992px) {
   .navbar-items {
@@ -1190,6 +1267,10 @@
     line-height: 48.28px;
     text-align: center;
     color: #FF5300;
+  }
+
+  .mt-md-15 {
+    margin-top: 15px;
   }
 }
 
