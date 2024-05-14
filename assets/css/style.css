@@ -810,6 +810,11 @@
   margin: 0 -27px;
 }
 
+.px_12px {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .slick-slide {
   margin: 0 27px;
 }
@@ -1199,7 +1204,8 @@
 .mb-125 {
   margin-bottom: 125px;
 }
-.gmap_canvas{
+
+.gmap_canvas {
   height: 100%;
   width: 100%;
   max-width: 100%;
