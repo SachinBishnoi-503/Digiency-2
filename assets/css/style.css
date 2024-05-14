@@ -1161,18 +1161,28 @@
   color: #7B7B7B;
 }
 
+.gap-18 {
+  gap: 18px;
+}
+
 .send-btn {
   padding: 13px 25px 12px 24px;
   border-radius: 5px;
   box-shadow: 0px 1px 10px 0px #0000001A;
+  border: 2px solid #FF5300;
   background-color: #E54B00;
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24.72px;
   color: white;
-  border: none;
   margin-top: 24px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #ffffff;
+  color: #FF5300;
 }
 
 .section8-heading {
@@ -1209,6 +1219,175 @@
   height: 100%;
   width: 100%;
   max-width: 100%;
+}
+
+.footer-digiency {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-digiency-span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: center;
+  color: #FF5300;
+}
+
+.foooter-lorem {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+}
+
+.footer-icons {
+  padding: 8px 8px 8px 8px;
+  background-color: white;
+  box-shadow: 4px 5px 15px 0px #FF530066;
+}
+
+.footer-icons:hover svg path {
+  fill: white;
+}
+
+.footer-icons:hover {
+  background-color: #ff5300;
+}
+
+.footer-background {
+  background-color: #373737;
+}
+
+.pt-66 {
+  padding-top: 66px;
+}
+
+.footer-company {
+  font-family: "Work Sans", sans-serif;
+  font-size: 39.06px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: left;
+}
+
+.footer-aboutus {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+}
+
+.footer-sevices {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: left;
+}
+
+.footer-graphic {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+}
+
+.footer-newsletter {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 48.28px;
+  text-align: left;
+}
+
+.footer-lorem-paragraph {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+}
+
+.pb-59 {
+  padding-bottom: 59px;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.footer-mailbox {
+  display: flex;
+  align-items: center;
+  max-width: 270px;
+  height: 60px;
+}
+
+.footer-mail {
+  border: 1px solid #FF5300;
+  display: flex;
+  align-items: center;
+  padding: 19px 46px 19px 18px;
+  color: #7B7B7B;
+  font-family: "Work Sans", sans-serif;
+  background-color: #373737;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: center;
+}
+
+.footer-mail:hover {
+  border: 1px solid #ffffff;
+}
+
+.footer-btn {
+  padding: 16px 21px 16px 21px;
+  background-color: #FF5300;
+  border: 2px solid #ff5300;
+}
+
+.footer-btn:hover {
+  background-color: #ffffff;
+}
+
+.footer-btn:hover svg path {
+  fill: #E54B00;
+}
+
+.gap-18 {
+  gap: 18px;
+}
+
+.footer-copyright {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.1px;
+  text-align: left;
+}
+
+.last-orange-line {
+  background-color: #FF5300;
+  padding: 10px 0;
 }
 
 @media (max-width: 992px) {
@@ -1276,6 +1455,27 @@
     line-height: 38.62px;
     text-align: left;
     color: #E54B00;
+  }
+
+  .footer-btn {
+    padding: 8px 5px 10px 5px;
+    background-color: #FF5300;
+    border: 2px solid #ff5300;
+  }
+
+  .footer-mail {
+    border: 1px solid #FF5300;
+    display: flex;
+    align-items: center;
+    padding: 12px 5px 12px 5px;
+    color: #7B7B7B;
+    font-family: "Work Sans", sans-serif;
+    background-color: #373737;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
   }
 }
 
@@ -1392,7 +1592,41 @@
   .mt-md-15 {
     margin-top: 15px;
   }
+
+  .md-mt-25 {
+    margin-top: 25px;
+  }
+
+  .footer-company {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25.06px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+
+  .footer-sevices {
+    font-family: "Work Sans", sans-serif;
+    color: #ffffff;
+    font-size: 25.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+    .footer-newsletter {
+      font-family: "Work Sans", sans-serif;
+      color: #ffffff;
+      font-size: 25.06px;
+      font-weight: 600;
+      line-height: 48.28px;
+      text-align: left;
+    }
+    .md-w-615{
+      width: 615px;
+    }
 }
+
 
 @media (max-width: 567px) {
   .digiency-1 {
@@ -1401,6 +1635,23 @@
     line-height: 45.77px;
     text-align: left;
     color: #ff5300;
+  }
+
+  .section7-our-latest {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+  }
+
+  .section7-span {
+    font-family: "Work Sans", sans-serif;
+    color: #E54B00;
+    font-size: 20.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
   }
 
   .digiency-2 {
@@ -1546,7 +1797,114 @@
 
   }
 
+  .sm-mt-50 {
+    margin-top: 50px;
+  }
+
+  .footer-btn {
+    padding: 13px 28px 18px 28px;
+    background-color: #FF5300;
+    border: 2px solid #ff5300;
+  }
+
+  .footer-mail {
+    border: 1px solid #FF5300;
+    display: flex;
+    align-items: center;
+    padding: 18px 30px 18px 18px;
+    color: #7B7B7B;
+    font-family: "Work Sans", sans-serif;
+    background-color: #373737;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+  }
+
+  .footer-mailbox {
+    display: flex;
+    align-items: center;
+    max-width: 343px;
+    height: 60px;
+  }
+
+  .footer-company {
+    font-family: "Work Sans", sans-serif;
+    font-size: 31.06px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+
+  .footer-sevices {
+    font-family: "Work Sans", sans-serif;
+    color: #ffffff;
+    font-size: 31.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+
+  .footer-newsletter {
+    font-family: "Work Sans", sans-serif;
+    color: #ffffff;
+    font-size: 31.06px;
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: left;
+  }
+
+  .stellar {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30.9px;
+    text-align: left;
+    color: #373737;
+  }
+
+  .jan {
+    font-family: "Work Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: #7B7B7B;
+  }
+
+  .cris {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    color: #373737;
+  }
+
+  .slider-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24.1px;
+    color: white;
+    margin-left: 45px;
+  }
+
+  .slider-head {
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30.9px;
+    color: white;
+    margin-left: 45px;
+    margin-top: 15px;
+  }
 }
+
+
+
 
 @media (min-width:992px) {
 

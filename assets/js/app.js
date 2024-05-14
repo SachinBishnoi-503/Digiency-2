@@ -6,9 +6,9 @@ menuicon.addEventListener("click", function () {
 
 $(".parentslider").slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
-    autoplay: false,
+    autoplay: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
