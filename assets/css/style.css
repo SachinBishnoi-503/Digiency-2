@@ -1625,6 +1625,9 @@
     .md-w-615{
       width: 615px;
     }
+    .md-d-flex{
+      display: flex;
+    }
 }
 
 
