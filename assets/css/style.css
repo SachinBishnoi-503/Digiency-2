@@ -593,9 +593,8 @@
 }
 
 .section4-box {
-  box-shadow: 0px 1px 10px 0px #0000001A;
+  box-shadow: 1px 1px 10px 1px #0000001A;
 }
-
 .section4-box:hover {
   box-shadow: 0px -2px 38px 8px #0000001a;
 }
@@ -1343,7 +1342,7 @@
   border: 1px solid #FF5300;
   display: flex;
   align-items: center;
-  padding: 19px 46px 19px 18px;
+  padding: 19px 10px 19px 18px;
   color: #7B7B7B;
   font-family: "Work Sans", sans-serif;
   background-color: #373737;
@@ -1389,6 +1388,7 @@
   background-color: #FF5300;
   padding: 10px 0;
 }
+
 
 @media (max-width: 992px) {
   .navbar-items {
@@ -1467,7 +1467,7 @@
     border: 1px solid #FF5300;
     display: flex;
     align-items: center;
-    padding: 12px 5px 12px 5px;
+    padding: 12px 7px 12px 7px;
     color: #7B7B7B;
     font-family: "Work Sans", sans-serif;
     background-color: #373737;
@@ -1814,7 +1814,7 @@
     border: 1px solid #FF5300;
     display: flex;
     align-items: center;
-    padding: 18px 30px 18px 18px;
+    padding: 18px 9px 18px 9px;
     color: #7B7B7B;
     font-family: "Work Sans", sans-serif;
     background-color: #373737;
